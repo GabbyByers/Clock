@@ -25,7 +25,7 @@ int main() {
 	}
 
 	vector<sf::Vertex> line_segments;
-	int division = 10;
+	int division = 6;
 	for (int i = 0; i < 12 * division; i++) {
 		sf::Color color = sf::Color(0, 0, 0);
 		if (i % division != 0) { color = sf::Color(200, 200, 200); }
@@ -52,4 +52,3 @@ int main() {
 		window.display();
 	} return 0;
 }
-
